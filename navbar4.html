@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Coffee Shop</title>
+    <link rel="icon" href="icon/favicon.ico" type="image">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image: url(img/back.jpg);
+            /* background: no-repeat; */
+            background-size: cover;
+            /* background-position: center; */
+
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: rgba(0, 0, 0, 0.2);
+            width: 100%;
+            height: 70px;
+            border-radius: 12px;
+            /* margin-top: 1px; */
+
+        }
+
+        .log img {
+            width: 55px;
+            margin-left: 25px;
+            border-radius: 39px;
+        }
+
+        .nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav ul li {
+            padding: 0px 3px;
+
+
+        }
+
+        .nav ul li a {
+            text-decoration: none;
+            display: block;
+            padding: 25px 25px;
+            color: aliceblue;
+
+
+        }
+
+        .nav a:hover {
+            color: aqua;
+            text-decoration: underline;
+        }
+        
+
+
+
+        .btn button {
+            /* display: inline-block; */
+            padding: 7px 35px;
+            border-radius: 15px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: aliceblue;
+            transition: background .6s;
+            margin-right: 25px;
+         
+
+            /* border: 1px solid white; */
+        }
+
+        .btn button:hover {
+            border: 1px solid #e5d68a;
+            color: #1c8d73;
+        }
+
+        input {
+            /* display: block; */
+            padding: 4px;
+            margin-right: 25px;
+            border-radius: 9px;
+            border: 2px solid white;
+            background-color: rgba(0, 0, 0, 0.0);
+            color: aliceblue;
+
+        }
+
+        .home {
+            text-align: center;
+            color: aliceblue;
+            margin-top: 1px;
+        }
+        @media only screen and (max-width: 420px) {
+            .container{
+                width: 250px;
+                position: absolute;
+                top: 0px;
+                left: -300px;
+                height: 800px;
+            }
+
+        }
+            
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="log">
+                <img src="img/coffee.png" alt="">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Service</a></li>
+                </ul>
+
+            </div>
+            <div class="btn">
+                <button >Call me</button>
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+
+    </header>
+    <section class="home">
+        <h1>Welcom Our Coffee</h1>
+        <br>
+        <h3>Live Your Life Wihh Energy</h3>
+        <br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio vero incidunt officia nulla alias amet
+            facilis! Sed dolorum error maiores odio possimus veniam tenetur at, facere modi numquam harum? Suscipit.</p>
+    </section>
+   
+
+</body>
+
+</html>

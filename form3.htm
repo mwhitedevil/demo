@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form for Project</title>
+    <link rel="stylesheet" href="css/form3.css">
+</head>
+
+<body>
+    <section class="container">
+        <header>Project Managerment</header>
+        <form action="action.php" method="get" enctype="multipart/form-data" class="form">
+            <div class="indexbox">
+                <label for="Projectname">Project Name</label>
+                <input type="text" name="myProject" id="Projectname">
+            </div>
+            <div class="indexbox">
+                <label for="Assigned">Assigned to</label>
+                <input type="text" name="myAssigned" id="Assigned">
+            </div>
+            <div class="indexbox">
+                <label for="startdate">Start Date</label>
+                <input type="date" name="mystartdate" id="startdate">
+            </div>
+            <div class="indexbox">
+                <label for="enddate">End Date</label>
+                <input type="date" name="myenddate" id="enddate">
+            </div>
+            <div class="as">
+                <label for="priority">Priority</label>
+                <input type="radio" name="mypriority" id="priority">hight<input type="radio" name="mypriority"
+                    id="priority">Average<input type="radio" name="mypriority" id="priority">low
+            </div>
+            <div class="indexbox">
+                <label for="description">Description</label>
+                <textarea name="mydescription" id="description" cols="25" rows="5"></textarea>
+            </div>
+            <div class="btn">
+                <input type="button" value="Submint">
+                <input type="reset" value="Reset">
+            </div>
+
+
+        </form>
+    </section>
+
+</body>
+
+</html>

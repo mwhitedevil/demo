@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 12px;
+
+
+        }
+
+        body {
+            background-color: #697979;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 30px;
+
+
+
+        }
+
+        .container {
+            background-color: white;
+            border-radius: 2px;
+            box-shadow: 0 0 10px rgb(0, 0, 0);
+            width: 1000Px;
+        }
+
+        header {
+            text-align: center;
+
+            margin: 0 0 30px;
+            border: 2px solid black;
+            color: azure;
+            background-color: #54515c;
+            font-size: large;
+
+
+
+        }
+
+        #form {
+            padding: 30px 90px;
+        }
+
+        .indexbox {
+            position: relative;
+            margin-bottom: 10px;
+            padding-bottom: 20px;
+            outline: non;
+            
+        }
+
+        label,
+        h2,
+        p {
+            color: rgb(129, 149, 114);
+        }
+
+        input {
+            width: 190px;
+            padding: 2px;
+            border: 2px solid rgb(207, 162, 162);
+            border-radius: 12px;
+           
+          
+        }
+         #street option{
+            background-color: aliceblue;
+            padding: 12px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <header>Basic Information</header>
+        <form action="" method="get" enctype="multipart/form-data" id="form">
+            <div class="indexbox">
+                <label for="nm">Name</label>
+                <input type="text" placeholder="Enter your first name" id="nm" required>
+                <label for="mn">Middle Name</label>
+                <input type="text" placeholder="Enter your first name" id="mn" required>
+                <label for="ln">last Name</label>
+                <input type="text" placeholder="Enter your first name" id="ln" required>
+            </div>
+            <div class="indexbox">
+                <label for="Gm">Gmail</label>
+                <input type="text" placeholder="Enter your Gmail id" required>
+            </div>
+            <div class="indexbox">
+                <label for="Gn">Gendar</label>
+                <input type="radio" name="mail" id="Gn">mail <input type="radio" name="mail" id="Gn"> femail
+            </div>
+            <div class="indexbox">
+                <label for="pn">Phone Number</label>
+                <input type="text" name="Phone" id="pn" placeholder="Enter your Phone Number">
+            </div>
+            <div class="indexbox">
+                <label for="Wn">Whatapp Number</label>
+                <input type="text" name="Phone" id="Wn" placeholder="Enter whatapp Number">
+            </div>
+            <div class="indexbox">
+                <label for="Ps1">Password</label>
+                <input type="text" name="Password" id="Password" placeholder="Enter your Password">
+            </div>
+            <div class="inputbox">
+                <label for="Ps2">Confirm Password</label>
+                <input type="text" name="confirm Password" placeholder=" Enter your Confirm Password" id="Ps2">
+            </div>
+            <br>
+            <div class="inputbox">
+                <label for="DoB">DoB</label>
+                <input type="date" name="DoB" id="DoB">
+            </div>
+            <div class="inputbox">
+                <h2>Address</h2>
+                <p>Permanent address is same as persent address <input type="checkbox" name="checkbox" id=""></p>
+            </div>
+            <div class="inputbox">
+                <label for="hno">H.no</label>
+                <input type="text" name="hno" id="hno">
+            </div>
+            <br>
+            <div class="inputbox">
+                <label for="hno">Street</label>
+                <select id="Street">
+                    <option value="lalpur road">narmada road</option>
+                    <option value="ghamapur road">ghamapur road</option>
+                </select>
+                <label for="lc">Location</label>
+                <select id="Street">
+                    <option value="lalpur road">narmada </option>
+                    <option value="ghamapur road">ghamapur</option>
+                </select>
+                <label for="lc">country</label>
+                <select id="Street">
+                    <option value="lalpur road">India</option>
+                    <option value="ghamapur road">USA</option>
+                    <option value="narmada road">UK</option>
+
+                </select>
+                <label for="lc">State</label>
+                <select id="Street">
+                    <option value="lalpur road">MP</option>
+                    <option value="ghamapur road">UP</option>
+                    <option value="narmada road">CH</option>
+
+                </select>
+                <label for="lc">City</label>
+                <select id="Street">
+                    <option value="lalpur road">Jbp</option>
+                    <option value="ghamapur road">Bp</option>
+                    <option value="narmada road">Np</option>
+                </select>
+                <br>
+                <br>
+                <div class="inputbox">
+                    <label for="Pn">Pin code</label>
+                    <input type="text" name="Pn" id="Pn">
+                </div>
+
+            </div>
+            <br>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sno</th>
+                        <th>Calss/Year</th>
+                        <th>Board/university</th>
+                        <th>%</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+
+                </tbody>
+
+            </table>
+            </div>
+
+            <div class="indexbox">
+                <h1>Profile pic and signature</h1>
+                <label for="Pf">Profile</label>
+                <input type="file" required>
+
+                <label for="sg">Signature</label>
+                <input type="file" required>
+            </div>
+            <div class="indexbox">
+                <h1>Docment uplode</h1>
+                <label for="Ac">Adhar card</label>
+                <input type="file" required>
+            
+                <label for="Pc">Pan card</label>
+                <input type="file" required>
+               
+                <label for="Vc">Voter id</label>
+                <input type="file" required>
+            </div>
+            <br>
+            <div class="indexbox">
+                <label for="doj">Date of joining</label>
+                <input type="date" required>
+            </div>
+            <button class="btn">Submint</button>
+            <button class="btn">Reset</button>
+
+
+
+
+
+
+
+
+
+
+        </form>
+    </section>
+
+
+</body>
+
+</html>

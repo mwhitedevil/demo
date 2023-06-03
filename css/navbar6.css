@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* body {
+    /* background: url(../img/back.jpg);}
+     */
+     body{
+        background-image: url();
+     }
+
+
+
+#nav {
+    display: flex;
+    align-items: center;
+    /* addd on property 2*/
+    position: relative;
+    height: 77px;
+   
+
+}
+
+/* add on proprrty 1*/
+#nav::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/* navbar : logo */
+.logo {
+    /* overflow: hidden; */
+    margin: 3px 16px;
+
+}
+
+/* navbar : image */
+.logo img {
+    height: 68px;
+    margin: 12px 8px;
+    border-radius: 60px;
+}
+
+/* navbar : list  */
+ul {
+    display: flex;
+}
+
+
+ul li {
+    list-style: none;
+    font-size: 1.3em;
+
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 3px 23px;
+    color: white;
+    border-radius: 20px;
+}
+
+ul li a:hover {
+    color: black;
+    background-color: aliceblue;
+    /* background-color: yellow; */
+    /* color: black; */
+}
+
+/* button */
+
+/* homesection */
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 2px;
+    margin: 2px  auto; 
+    margin-left: -2px;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+    margin-top: -45px;
+
+
+}
+
+#home::before {
+    content: "";
+    background:url("../img/back.jpg") no-repeat center center/cover;
+    position: absolute;
+    height: 49%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+
+
+.primary {
+    font-size: 2.8rem;
+    padding: 22px;
+    text-align: center;
+    margin-top: 68px;
+}
+
+#service{
+    display: flex;
+    margin: 34px;
+}
+#service .box{
+    width: 349px;
+    border: 2px solid black;
+    margin: 17px 64px;
+   
+    
+
+}
+#service .box img{
+     height: 191px;
+     /* margin-top: 12px; */
+     display: block;
+     margin: auto;
+     float: left;
+     padding-top: 21px;
+     padding: 4px ;
+     border-radius: 12px;
+    
+    }
+
+#service h2{
+    text-align: center;
+    background-color: #c1cbd7;
+}
+#service p{
+    background-color: #cba6cb;
+    text-align: center;
+    color: rgb(34, 32, 32);
+}

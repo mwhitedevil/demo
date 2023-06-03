@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: #120E43;
+            color: aliceblue;
+        }
+        .nav{
+            display: flex;
+            background-color:#46B2E0 ;
+          margin-top: 1px;
+          border-radius: 12px;
+          height: 47px;
+          justify-content: space-between;
+            
+        }
+        .nav ul{
+            display: flex;
+            /* width: 100%; */
+            list-style: none;
+            margin-top: 11px;
+            font-size: larger;
+         
+        }
+        .nav ul li a{
+            
+            text-decoration: none;
+            color: aliceblue;
+            padding: 25px;
+            list-style: none;
+        }
+        .search{
+            display: flex;
+            position: absolute;
+            top: 11px;
+            left: 571px;
+            
+        }input{
+            border : 2px solid black;
+            padding: 2px;
+            border-radius: 12px;
+        }
+        
+       
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Event</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Contact</a></li>
+
+            <div class="search">
+                <input type="text" placeholder="search">
+                <button class="btn">Search</button>
+            </div>
+        </ul>
+    </div>
+
+</body>
+
+</html>

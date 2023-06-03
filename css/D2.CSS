@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'proximaSemiBold';
+}
+#navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    /* margin: 0;
+    padding: 0; */
+}
+#navbar::before{
+    content: "";
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+
+}
+.navul {
+    display: flex;
+}
+.navul li{
+    list-style: none;
+    margin: 0px;
+    padding: 12px;
+   font-weight: bold;
+    
+}
+
+.navul li a{
+    display: block;
+    text-decoration: none;
+    padding: 12px 12px;
+    border-radius: 12px;
+    color: #708aa5;
+
+}
+.navul li a:hover{
+    color: #1a5ca3;
+}
+#logo{
+    margin: 10px 50px;
+}
+#logo img{
+   /* width: 100%; */
+    height: 33px;
+   margin: 9px 38px; 
+}
+.btn{
+    padding: 11px 25px;
+   /* margin-left: 150px; */
+ background-color: #f40000d6;
+ color: white;
+ font-weight: bold;
+ font-size: medium;
+ font-family :'proximaNova';
+ position: absolute;
+ right: 1em;
+   
+}
+/* .home::before{
+    content: "";
+    position: absolute;
+  background: url("/img/dominos\ back.png") no-repeat center center/cover; 
+    height: 70%;
+    width: 100%;
+    line-height: 12px;
+    z-index: -1;
+    background-color:#1a5ca3;
+   
+}  */
+
+/* .home.online-order{
+    height: 120vh;
+    width: 120%;
+} */
+.bg img{
+    display: block;
+    height: 380px;
+    width: 1000px;
+   
+    background-color:#1a5ca3;
+    
+}
+.bg{
+
+    position: absolute;
+ right: 0em;
+  /* background-color: #1a5ca3; */
+
+}
+.home{
+    background-color: #1a5ca3;
+    height: 380px;
+}
+ .online-order{
+    position: relative;
+    top: 4em;
+    left: 5em;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 21px;
+}
+.btn2{
+        margin: 12px;
+        width: 20em;
+        border: 0;
+        height: 3em;
+        border-radius: 2px;
+        background-color: #1fb31a;
+        text-transform: uppercase;
+        cursor: pointer;
+        font-family: 'proximaBold';
+        font-size: 20px;
+        text-align: center;
+        color: #ffffff;
+        box-shadow: 0 2px 2px 0 #024389, 0 0 2px 0 rgba(0, 0, 0, 0.12);
+      }
+      .banner{
+        position: absolute;
+        left: 1rem;
+      }
+

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paytm</title>
+    <style>
+        body {
+            background-color: rgb(211, 143, 143);
+            display: flex;
+            color: aliceblue;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: aliceblue;
+            color: black;
+            border: 2px solid gold;
+            box-shadow: 0 0 10px rgb(0, 0, 0.1);
+            padding: 30px;
+            width: 640px;
+        }
+        header{
+            text-align: center;
+            border: 2px solid black;
+            margin: 0 0 30px;
+            background-color: #502550;
+            color: aliceblue;
+            font-size: large;
+            font-weight: bold;
+            border-radius: 12px;
+        }
+        .form{
+            padding: 20px 50px;
+        }
+        .indexbox{
+            margin: 25px;
+            padding: 21px;
+            position: relative;
+        }
+        .form input{
+            width: 100%;
+            border: 2px solid black;
+            outline: none;
+            border-radius: 7px;
+
+        }
+        label{
+            color: #356935;
+           
+           
+        }
+    section{
+        border: 2px solid black;
+    }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <header>Registion</header>
+        <form action="action.php" method="get" enctype="multipart/form-data" class="form">
+            <div class="indexbox">
+                <label for="name">Name</label>
+                <input type="text" name="myname" id="name">
+            </div>
+            <div class="indexbox">
+                <label for="last">Last</label>
+                <input type="text" name="mylastname" id="last">
+            </div>
+            <div class="indexbox">
+                <label for="Pn">Phone</label>
+                <input type="text" name="myphone" id="Pn">
+            </div>
+            <div class="indexbox">
+                <label for="IP">IP</label>
+                <input type="text" name="myip" id="IP">
+            </div>
+
+            <div class="as">
+                <label for="car">car</label>
+                <select name="mycar" id="car">
+                    <option value="swf" selected>swf</option>
+                    <option value="bmw">bmw</option>
+                    <option value="oudy">oudy</option>
+                </select>
+
+            </div>
+
+        </form>
+    </section>
+
+</body>
+
+</html>

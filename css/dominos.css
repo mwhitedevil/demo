@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    /* padding: 0px; */
+
+    height: 80px;
+
+    /* width: 116%; */
+}
+
+
+
+
+.lobo img {
+    width: 265px;
+    margin-left: -318px;
+
+    padding: 40px;
+}
+
+.navul {
+    display: flex;
+
+
+
+
+
+}
+
+.navul .list {
+    list-style: none;
+    padding: 22px;
+
+
+}
+
+.list a {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .button{
+background-color: red;
+color: aliceblue;
+padding: 10px;
+margin-left: 12px;
+border-radius: 15px;
+} */
+button {
+
+    padding: 5px;
+    background-color: #d91414b8;
+    margin: 115px;
+    margin-right: -190px;
+}
+
+button a {
+    text-decoration: none;
+    padding: 19px;
+    margin: 5px;
+    color: aliceblue;
+    font-size: large;
+    
+}

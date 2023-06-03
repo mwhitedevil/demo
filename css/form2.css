@@ -1,0 +1,36 @@
+    
+ body{
+
+    background-image: url(/img/co.png);
+    height: 50px;
+    
+    
+
+ }
+
+form {
+
+    text-align: center;
+background-image: url("/img/back.jpg")  ;
+background-size: cover ;
+
+
+background-position: 50px;
+        /* color: rgb(47, 27, 3); */
+        color: white;
+        margin-top: 200px;
+        width: 100%;
+        margin: 12px;
+
+        
+
+}
+
+button{
+
+    background-color: black;
+    color: aliceblue;
+    margin-right: 120px;
+    border-radius: 20px;
+
+}
